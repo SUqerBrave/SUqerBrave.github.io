@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
   <title>Life lover</title>
-  <icon>https://loveforfight.love/icon.png</icon>
+  <icon>https://suqerbrave.github.io/icon.png</icon>
   <subtitle>[object Object]</subtitle>
-  <link href="https://loveforfight.love/atom.xml" rel="self"/>
+  <link href="https://suqerbrave.github.io/atom.xml" rel="self"/>
   
-  <link href="https://loveforfight.love/"/>
-  <updated>2024-03-10T02:48:56.048Z</updated>
-  <id>https://loveforfight.love/</id>
+  <link href="https://suqerbrave.github.io/"/>
+  <updated>2024-08-12T13:31:51.584Z</updated>
+  <id>https://suqerbrave.github.io/</id>
   
   <author>
     <name>bilibiliganb</name>
@@ -17,11 +17,40 @@
   <generator uri="https://hexo.io/">Hexo</generator>
   
   <entry>
+    <title>sliver源码分析-初始化以及脚手架</title>
+    <link href="https://suqerbrave.github.io/2024/08/12/sliver%E6%BA%90%E7%A0%81%E5%88%86%E6%9E%90-%E5%88%9D%E5%A7%8B%E5%8C%96%E4%BB%A5%E5%8F%8A%E8%84%9A%E6%89%8B%E6%9E%B6/"/>
+    <id>https://suqerbrave.github.io/2024/08/12/sliver%E6%BA%90%E7%A0%81%E5%88%86%E6%9E%90-%E5%88%9D%E5%A7%8B%E5%8C%96%E4%BB%A5%E5%8F%8A%E8%84%9A%E6%89%8B%E6%9E%B6/</id>
+    <published>2024-08-12T08:18:02.000Z</published>
+    <updated>2024-08-12T13:31:51.584Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h1 id=&quot;引言&quot;&gt;&lt;a href=&quot;#引言&quot; class=&quot;headerlink&quot;</summary>
+        
+      
+    
+    
+    
+    <category term="代码研究" scheme="https://suqerbrave.github.io/categories/%E4%BB%A3%E7%A0%81%E7%A0%94%E7%A9%B6/"/>
+    
+    
+    <category term="sliver-port" scheme="https://suqerbrave.github.io/tags/sliver-port/"/>
+    
+    <category term="C2" scheme="https://suqerbrave.github.io/tags/C2/"/>
+    
+    <category term="Cobra" scheme="https://suqerbrave.github.io/tags/Cobra/"/>
+    
+  </entry>
+  
+  <entry>
     <title>Android脱壳</title>
-    <link href="https://loveforfight.love/2024/03/10/Android%E8%84%B1%E5%A3%B3/"/>
-    <id>https://loveforfight.love/2024/03/10/Android%E8%84%B1%E5%A3%B3/</id>
+    <link href="https://suqerbrave.github.io/2024/03/10/Android%E8%84%B1%E5%A3%B3/"/>
+    <id>https://suqerbrave.github.io/2024/03/10/Android%E8%84%B1%E5%A3%B3/</id>
     <published>2024-03-10T02:47:02.000Z</published>
-    <updated>2024-03-10T02:48:56.048Z</updated>
+    <updated>2024-03-14T10:56:52.000Z</updated>
     
     
       
@@ -34,23 +63,23 @@
     
     
     
-    <category term="安卓" scheme="https://loveforfight.love/categories/%E5%AE%89%E5%8D%93/"/>
+    <category term="安卓" scheme="https://suqerbrave.github.io/categories/%E5%AE%89%E5%8D%93/"/>
     
     
-    <category term="脱壳" scheme="https://loveforfight.love/tags/%E8%84%B1%E5%A3%B3/"/>
+    <category term="脱壳" scheme="https://suqerbrave.github.io/tags/%E8%84%B1%E5%A3%B3/"/>
     
-    <category term="逆向" scheme="https://loveforfight.love/tags/%E9%80%86%E5%90%91/"/>
+    <category term="逆向" scheme="https://suqerbrave.github.io/tags/%E9%80%86%E5%90%91/"/>
     
-    <category term="frida" scheme="https://loveforfight.love/tags/frida/"/>
+    <category term="frida" scheme="https://suqerbrave.github.io/tags/frida/"/>
     
   </entry>
   
   <entry>
     <title>红蓝对抗-外围打点</title>
-    <link href="https://loveforfight.love/2023/11/19/%E7%BA%A2%E8%93%9D%E5%AF%B9%E6%8A%97-%E5%A4%96%E5%9B%B4%E6%89%93%E7%82%B9/"/>
-    <id>https://loveforfight.love/2023/11/19/%E7%BA%A2%E8%93%9D%E5%AF%B9%E6%8A%97-%E5%A4%96%E5%9B%B4%E6%89%93%E7%82%B9/</id>
+    <link href="https://suqerbrave.github.io/2023/11/19/%E7%BA%A2%E8%93%9D%E5%AF%B9%E6%8A%97-%E5%A4%96%E5%9B%B4%E6%89%93%E7%82%B9/"/>
+    <id>https://suqerbrave.github.io/2023/11/19/%E7%BA%A2%E8%93%9D%E5%AF%B9%E6%8A%97-%E5%A4%96%E5%9B%B4%E6%89%93%E7%82%B9/</id>
     <published>2023-11-19T08:32:27.000Z</published>
-    <updated>2024-03-10T02:48:56.133Z</updated>
+    <updated>2024-03-14T10:56:52.000Z</updated>
     
     
       
@@ -63,23 +92,23 @@
     
     
     
-    <category term="攻防" scheme="https://loveforfight.love/categories/%E6%94%BB%E9%98%B2/"/>
+    <category term="攻防" scheme="https://suqerbrave.github.io/categories/%E6%94%BB%E9%98%B2/"/>
     
     
-    <category term="攻防" scheme="https://loveforfight.love/tags/%E6%94%BB%E9%98%B2/"/>
+    <category term="信息收集" scheme="https://suqerbrave.github.io/tags/%E4%BF%A1%E6%81%AF%E6%94%B6%E9%9B%86/"/>
     
-    <category term="信息收集" scheme="https://loveforfight.love/tags/%E4%BF%A1%E6%81%AF%E6%94%B6%E9%9B%86/"/>
+    <category term="资产测绘" scheme="https://suqerbrave.github.io/tags/%E8%B5%84%E4%BA%A7%E6%B5%8B%E7%BB%98/"/>
     
-    <category term="资产测绘" scheme="https://loveforfight.love/tags/%E8%B5%84%E4%BA%A7%E6%B5%8B%E7%BB%98/"/>
+    <category term="攻防" scheme="https://suqerbrave.github.io/tags/%E6%94%BB%E9%98%B2/"/>
     
   </entry>
   
   <entry>
     <title>密码相关</title>
-    <link href="https://loveforfight.love/2023/11/18/%E5%AF%86%E7%A0%81%E7%9B%B8%E5%85%B3/"/>
-    <id>https://loveforfight.love/2023/11/18/%E5%AF%86%E7%A0%81%E7%9B%B8%E5%85%B3/</id>
+    <link href="https://suqerbrave.github.io/2023/11/18/%E5%AF%86%E7%A0%81%E7%9B%B8%E5%85%B3/"/>
+    <id>https://suqerbrave.github.io/2023/11/18/%E5%AF%86%E7%A0%81%E7%9B%B8%E5%85%B3/</id>
     <published>2023-11-18T14:45:27.000Z</published>
-    <updated>2024-03-10T02:48:56.115Z</updated>
+    <updated>2024-03-14T10:56:52.000Z</updated>
     
     
       
@@ -92,23 +121,23 @@
     
     
     
-    <category term="工具" scheme="https://loveforfight.love/categories/%E5%B7%A5%E5%85%B7/"/>
+    <category term="工具" scheme="https://suqerbrave.github.io/categories/%E5%B7%A5%E5%85%B7/"/>
     
     
-    <category term="密码" scheme="https://loveforfight.love/tags/%E5%AF%86%E7%A0%81/"/>
+    <category term="密码" scheme="https://suqerbrave.github.io/tags/%E5%AF%86%E7%A0%81/"/>
     
-    <category term="暴力破解" scheme="https://loveforfight.love/tags/%E6%9A%B4%E5%8A%9B%E7%A0%B4%E8%A7%A3/"/>
+    <category term="暴力破解" scheme="https://suqerbrave.github.io/tags/%E6%9A%B4%E5%8A%9B%E7%A0%B4%E8%A7%A3/"/>
     
-    <category term="密码喷洒" scheme="https://loveforfight.love/tags/%E5%AF%86%E7%A0%81%E5%96%B7%E6%B4%92/"/>
+    <category term="密码喷洒" scheme="https://suqerbrave.github.io/tags/%E5%AF%86%E7%A0%81%E5%96%B7%E6%B4%92/"/>
     
   </entry>
   
   <entry>
     <title>Python 一些技巧</title>
-    <link href="https://loveforfight.love/2023/11/14/python%E4%B8%80%E4%BA%9B%E6%8A%80%E5%B7%A7/"/>
-    <id>https://loveforfight.love/2023/11/14/python%E4%B8%80%E4%BA%9B%E6%8A%80%E5%B7%A7/</id>
+    <link href="https://suqerbrave.github.io/2023/11/14/python%E4%B8%80%E4%BA%9B%E6%8A%80%E5%B7%A7/"/>
+    <id>https://suqerbrave.github.io/2023/11/14/python%E4%B8%80%E4%BA%9B%E6%8A%80%E5%B7%A7/</id>
     <published>2023-11-14T14:26:27.000Z</published>
-    <updated>2024-03-10T02:48:56.081Z</updated>
+    <updated>2024-03-14T10:56:52.000Z</updated>
     
     
       
@@ -121,21 +150,21 @@
     
     
     
-    <category term="工具" scheme="https://loveforfight.love/categories/%E5%B7%A5%E5%85%B7/"/>
+    <category term="工具" scheme="https://suqerbrave.github.io/categories/%E5%B7%A5%E5%85%B7/"/>
     
     
-    <category term="开发" scheme="https://loveforfight.love/tags/%E5%BC%80%E5%8F%91/"/>
+    <category term="开发" scheme="https://suqerbrave.github.io/tags/%E5%BC%80%E5%8F%91/"/>
     
-    <category term="python" scheme="https://loveforfight.love/tags/python/"/>
+    <category term="python" scheme="https://suqerbrave.github.io/tags/python/"/>
     
   </entry>
   
   <entry>
     <title>后渗透-清理痕迹</title>
-    <link href="https://loveforfight.love/2023/10/26/%E5%90%8E%E6%B8%97%E9%80%8F-%E6%B8%85%E7%90%86%E7%97%95%E8%BF%B9/"/>
-    <id>https://loveforfight.love/2023/10/26/%E5%90%8E%E6%B8%97%E9%80%8F-%E6%B8%85%E7%90%86%E7%97%95%E8%BF%B9/</id>
+    <link href="https://suqerbrave.github.io/2023/10/26/%E5%90%8E%E6%B8%97%E9%80%8F-%E6%B8%85%E7%90%86%E7%97%95%E8%BF%B9/"/>
+    <id>https://suqerbrave.github.io/2023/10/26/%E5%90%8E%E6%B8%97%E9%80%8F-%E6%B8%85%E7%90%86%E7%97%95%E8%BF%B9/</id>
     <published>2023-10-26T12:04:27.000Z</published>
-    <updated>2024-03-10T02:48:56.108Z</updated>
+    <updated>2024-03-14T10:56:52.000Z</updated>
     
     
       
@@ -148,23 +177,23 @@
     
     
     
-    <category term="攻防" scheme="https://loveforfight.love/categories/%E6%94%BB%E9%98%B2/"/>
+    <category term="攻防" scheme="https://suqerbrave.github.io/categories/%E6%94%BB%E9%98%B2/"/>
     
     
-    <category term="清理痕迹" scheme="https://loveforfight.love/tags/%E6%B8%85%E7%90%86%E7%97%95%E8%BF%B9/"/>
+    <category term="攻防" scheme="https://suqerbrave.github.io/tags/%E6%94%BB%E9%98%B2/"/>
     
-    <category term="渗透" scheme="https://loveforfight.love/tags/%E6%B8%97%E9%80%8F/"/>
+    <category term="清理痕迹" scheme="https://suqerbrave.github.io/tags/%E6%B8%85%E7%90%86%E7%97%95%E8%BF%B9/"/>
     
-    <category term="攻防" scheme="https://loveforfight.love/tags/%E6%94%BB%E9%98%B2/"/>
+    <category term="渗透" scheme="https://suqerbrave.github.io/tags/%E6%B8%97%E9%80%8F/"/>
     
   </entry>
   
   <entry>
     <title>蓝牙工具</title>
-    <link href="https://loveforfight.love/2023/10/22/%E8%93%9D%E7%89%99%E5%B7%A5%E5%85%B7/"/>
-    <id>https://loveforfight.love/2023/10/22/%E8%93%9D%E7%89%99%E5%B7%A5%E5%85%B7/</id>
+    <link href="https://suqerbrave.github.io/2023/10/22/%E8%93%9D%E7%89%99%E5%B7%A5%E5%85%B7/"/>
+    <id>https://suqerbrave.github.io/2023/10/22/%E8%93%9D%E7%89%99%E5%B7%A5%E5%85%B7/</id>
     <published>2023-10-22T05:04:27.000Z</published>
-    <updated>2024-03-10T02:48:56.134Z</updated>
+    <updated>2024-03-14T10:56:52.000Z</updated>
     
     
       
@@ -177,21 +206,21 @@
     
     
     
-    <category term="工具" scheme="https://loveforfight.love/categories/%E5%B7%A5%E5%85%B7/"/>
+    <category term="工具" scheme="https://suqerbrave.github.io/categories/%E5%B7%A5%E5%85%B7/"/>
     
     
-    <category term="渗透" scheme="https://loveforfight.love/tags/%E6%B8%97%E9%80%8F/"/>
+    <category term="渗透" scheme="https://suqerbrave.github.io/tags/%E6%B8%97%E9%80%8F/"/>
     
-    <category term="蓝牙" scheme="https://loveforfight.love/tags/%E8%93%9D%E7%89%99/"/>
+    <category term="蓝牙" scheme="https://suqerbrave.github.io/tags/%E8%93%9D%E7%89%99/"/>
     
   </entry>
   
   <entry>
     <title>ReconForce</title>
-    <link href="https://loveforfight.love/2023/10/21/ReconForce/"/>
-    <id>https://loveforfight.love/2023/10/21/ReconForce/</id>
+    <link href="https://suqerbrave.github.io/2023/10/21/ReconForce/"/>
+    <id>https://suqerbrave.github.io/2023/10/21/ReconForce/</id>
     <published>2023-10-21T08:33:48.000Z</published>
-    <updated>2024-03-10T02:48:56.093Z</updated>
+    <updated>2024-03-14T10:56:52.000Z</updated>
     
     
       
@@ -204,81 +233,23 @@
     
     
     
-    <category term="Vulnhub" scheme="https://loveforfight.love/categories/Vulnhub/"/>
+    <category term="Vulnhub" scheme="https://suqerbrave.github.io/categories/Vulnhub/"/>
     
     
-    <category term="渗透测试" scheme="https://loveforfight.love/tags/%E6%B8%97%E9%80%8F%E6%B5%8B%E8%AF%95/"/>
+    <category term="渗透测试" scheme="https://suqerbrave.github.io/tags/%E6%B8%97%E9%80%8F%E6%B5%8B%E8%AF%95/"/>
     
-    <category term="提权" scheme="https://loveforfight.love/tags/%E6%8F%90%E6%9D%83/"/>
+    <category term="提权" scheme="https://suqerbrave.github.io/tags/%E6%8F%90%E6%9D%83/"/>
     
-    <category term="Linux" scheme="https://loveforfight.love/tags/Linux/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>Os-ByteSec</title>
-    <link href="https://loveforfight.love/2023/10/21/Os-ByteSec/"/>
-    <id>https://loveforfight.love/2023/10/21/Os-ByteSec/</id>
-    <published>2023-10-21T08:20:27.000Z</published>
-    <updated>2024-03-10T02:48:56.064Z</updated>
-    
-    
-      
-      
-        
-        
-    <summary type="html">&lt;h1 id=&quot;Os-ByteSec&quot;&gt;&lt;a href=&quot;#Os-ByteSec&quot; class=&quot;headerlink&quot; title=&quot;Os-ByteSec&quot;&gt;&lt;/a&gt;Os-ByteSec&lt;/h1&gt;&lt;p&gt;靶机地址&lt;a</summary>
-        
-      
-    
-    
-    
-    <category term="Vulnhub" scheme="https://loveforfight.love/categories/Vulnhub/"/>
-    
-    
-    <category term="渗透测试" scheme="https://loveforfight.love/tags/%E6%B8%97%E9%80%8F%E6%B5%8B%E8%AF%95/"/>
-    
-    <category term="提权" scheme="https://loveforfight.love/tags/%E6%8F%90%E6%9D%83/"/>
-    
-    <category term="Linux" scheme="https://loveforfight.love/tags/Linux/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>Os-hackNos-1</title>
-    <link href="https://loveforfight.love/2023/10/21/Os-hackNos-1/"/>
-    <id>https://loveforfight.love/2023/10/21/Os-hackNos-1/</id>
-    <published>2023-10-21T08:20:27.000Z</published>
-    <updated>2024-03-10T02:48:56.065Z</updated>
-    
-    
-      
-      
-        
-        
-    <summary type="html">&lt;h1 id=&quot;Os-hackNos-1&quot;&gt;&lt;a href=&quot;#Os-hackNos-1&quot; class=&quot;headerlink&quot; title=&quot;Os-hackNos-1&quot;&gt;&lt;/a&gt;Os-hackNos-1&lt;/h1&gt;&lt;p&gt;靶机下载 &lt;a</summary>
-        
-      
-    
-    
-    
-    <category term="Vulnhub" scheme="https://loveforfight.love/categories/Vulnhub/"/>
-    
-    
-    <category term="渗透测试" scheme="https://loveforfight.love/tags/%E6%B8%97%E9%80%8F%E6%B5%8B%E8%AF%95/"/>
-    
-    <category term="提权" scheme="https://loveforfight.love/tags/%E6%8F%90%E6%9D%83/"/>
-    
-    <category term="Linux" scheme="https://loveforfight.love/tags/Linux/"/>
+    <category term="Linux" scheme="https://suqerbrave.github.io/tags/Linux/"/>
     
   </entry>
   
   <entry>
     <title>Havoc-Windows-Client</title>
-    <link href="https://loveforfight.love/2023/10/21/Havoc-Windows-Client/"/>
-    <id>https://loveforfight.love/2023/10/21/Havoc-Windows-Client/</id>
+    <link href="https://suqerbrave.github.io/2023/10/21/Havoc-Windows-Client/"/>
+    <id>https://suqerbrave.github.io/2023/10/21/Havoc-Windows-Client/</id>
     <published>2023-10-21T08:20:27.000Z</published>
-    <updated>2024-03-10T02:48:56.061Z</updated>
+    <updated>2024-03-14T10:56:52.000Z</updated>
     
     
       
@@ -291,19 +262,77 @@
     
     
     
-    <category term="工具" scheme="https://loveforfight.love/categories/%E5%B7%A5%E5%85%B7/"/>
+    <category term="工具" scheme="https://suqerbrave.github.io/categories/%E5%B7%A5%E5%85%B7/"/>
     
     
-    <category term="工具开发" scheme="https://loveforfight.love/tags/%E5%B7%A5%E5%85%B7%E5%BC%80%E5%8F%91/"/>
+    <category term="工具开发" scheme="https://suqerbrave.github.io/tags/%E5%B7%A5%E5%85%B7%E5%BC%80%E5%8F%91/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Os-ByteSec</title>
+    <link href="https://suqerbrave.github.io/2023/10/21/Os-ByteSec/"/>
+    <id>https://suqerbrave.github.io/2023/10/21/Os-ByteSec/</id>
+    <published>2023-10-21T08:20:27.000Z</published>
+    <updated>2024-03-14T10:56:52.000Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h1 id=&quot;Os-ByteSec&quot;&gt;&lt;a href=&quot;#Os-ByteSec&quot; class=&quot;headerlink&quot; title=&quot;Os-ByteSec&quot;&gt;&lt;/a&gt;Os-ByteSec&lt;/h1&gt;&lt;p&gt;靶机地址&lt;a</summary>
+        
+      
+    
+    
+    
+    <category term="Vulnhub" scheme="https://suqerbrave.github.io/categories/Vulnhub/"/>
+    
+    
+    <category term="渗透测试" scheme="https://suqerbrave.github.io/tags/%E6%B8%97%E9%80%8F%E6%B5%8B%E8%AF%95/"/>
+    
+    <category term="提权" scheme="https://suqerbrave.github.io/tags/%E6%8F%90%E6%9D%83/"/>
+    
+    <category term="Linux" scheme="https://suqerbrave.github.io/tags/Linux/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Os-hackNos-1</title>
+    <link href="https://suqerbrave.github.io/2023/10/21/Os-hackNos-1/"/>
+    <id>https://suqerbrave.github.io/2023/10/21/Os-hackNos-1/</id>
+    <published>2023-10-21T08:20:27.000Z</published>
+    <updated>2024-03-14T10:56:52.000Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h1 id=&quot;Os-hackNos-1&quot;&gt;&lt;a href=&quot;#Os-hackNos-1&quot; class=&quot;headerlink&quot; title=&quot;Os-hackNos-1&quot;&gt;&lt;/a&gt;Os-hackNos-1&lt;/h1&gt;&lt;p&gt;靶机下载 &lt;a</summary>
+        
+      
+    
+    
+    
+    <category term="Vulnhub" scheme="https://suqerbrave.github.io/categories/Vulnhub/"/>
+    
+    
+    <category term="渗透测试" scheme="https://suqerbrave.github.io/tags/%E6%B8%97%E9%80%8F%E6%B5%8B%E8%AF%95/"/>
+    
+    <category term="提权" scheme="https://suqerbrave.github.io/tags/%E6%8F%90%E6%9D%83/"/>
+    
+    <category term="Linux" scheme="https://suqerbrave.github.io/tags/Linux/"/>
     
   </entry>
   
   <entry>
     <title>trollcave-v1-2</title>
-    <link href="https://loveforfight.love/2023/10/21/trollcave-v1-2/"/>
-    <id>https://loveforfight.love/2023/10/21/trollcave-v1-2/</id>
+    <link href="https://suqerbrave.github.io/2023/10/21/trollcave-v1-2/"/>
+    <id>https://suqerbrave.github.io/2023/10/21/trollcave-v1-2/</id>
     <published>2023-10-21T08:20:27.000Z</published>
-    <updated>2024-03-10T02:48:56.106Z</updated>
+    <updated>2024-03-14T10:56:52.000Z</updated>
     
     
       
@@ -316,14 +345,14 @@
     
     
     
-    <category term="Vulnhub" scheme="https://loveforfight.love/categories/Vulnhub/"/>
+    <category term="Vulnhub" scheme="https://suqerbrave.github.io/categories/Vulnhub/"/>
     
     
-    <category term="渗透测试" scheme="https://loveforfight.love/tags/%E6%B8%97%E9%80%8F%E6%B5%8B%E8%AF%95/"/>
+    <category term="渗透测试" scheme="https://suqerbrave.github.io/tags/%E6%B8%97%E9%80%8F%E6%B5%8B%E8%AF%95/"/>
     
-    <category term="提权" scheme="https://loveforfight.love/tags/%E6%8F%90%E6%9D%83/"/>
+    <category term="提权" scheme="https://suqerbrave.github.io/tags/%E6%8F%90%E6%9D%83/"/>
     
-    <category term="Linux" scheme="https://loveforfight.love/tags/Linux/"/>
+    <category term="Linux" scheme="https://suqerbrave.github.io/tags/Linux/"/>
     
   </entry>
   
