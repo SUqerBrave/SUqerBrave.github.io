@@ -6,7 +6,7 @@
   <link href="https://suqerbrave.github.io/atom.xml" rel="self"/>
   
   <link href="https://suqerbrave.github.io/"/>
-  <updated>2024-09-07T08:33:45.588Z</updated>
+  <updated>2024-09-07T13:57:25.181Z</updated>
   <id>https://suqerbrave.github.io/</id>
   
   <author>
@@ -15,6 +15,34 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>HTB-You know 0xDiablos</title>
+    <link href="https://suqerbrave.github.io/2024/09/07/HTB-You%20know%200xDiablos/"/>
+    <id>https://suqerbrave.github.io/2024/09/07/HTB-You%20know%200xDiablos/</id>
+    <published>2024-09-07T13:29:17.000Z</published>
+    <updated>2024-09-07T13:57:25.181Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h1 id=&quot;引言&quot;&gt;&lt;a href=&quot;#引言&quot; class=&quot;headerlink&quot; title=&quot;引言&quot;&gt;&lt;/a&gt;引言&lt;/h1&gt;&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;项目概述&lt;/strong&gt;：HEB的EASY难度 PWN靶机 You know 0xDiablos &lt;a</summary>
+        
+      
+    
+    
+    
+    <category term="hack-the-box" scheme="https://suqerbrave.github.io/categories/hack-the-box/"/>
+    
+    
+    <category term="HTB" scheme="https://suqerbrave.github.io/tags/HTB/"/>
+    
+    <category term="栈溢出" scheme="https://suqerbrave.github.io/tags/%E6%A0%88%E6%BA%A2%E5%87%BA/"/>
+    
+  </entry>
   
   <entry>
     <title>HTB-Infiltrator</title>
@@ -327,9 +355,9 @@
   </entry>
   
   <entry>
-    <title>trollcave-v1-2</title>
-    <link href="https://suqerbrave.github.io/2023/10/21/trollcave-v1-2/"/>
-    <id>https://suqerbrave.github.io/2023/10/21/trollcave-v1-2/</id>
+    <title>Os-hackNos-1</title>
+    <link href="https://suqerbrave.github.io/2023/10/21/Os-hackNos-1/"/>
+    <id>https://suqerbrave.github.io/2023/10/21/Os-hackNos-1/</id>
     <published>2023-10-21T08:20:27.000Z</published>
     <updated>2024-03-14T10:56:52.000Z</updated>
     
@@ -338,7 +366,7 @@
       
         
         
-    <summary type="html">&lt;h1 id=&quot;trollcave-v1-2&quot;&gt;&lt;a href=&quot;#trollcave-v1-2&quot; class=&quot;headerlink&quot; title=&quot;trollcave-v1-2&quot;&gt;&lt;/a&gt;trollcave-v1-2&lt;/h1&gt;&lt;p&gt;靶机地址&lt;a</summary>
+    <summary type="html">&lt;h1 id=&quot;Os-hackNos-1&quot;&gt;&lt;a href=&quot;#Os-hackNos-1&quot; class=&quot;headerlink&quot; title=&quot;Os-hackNos-1&quot;&gt;&lt;/a&gt;Os-hackNos-1&lt;/h1&gt;&lt;p&gt;靶机下载 &lt;a</summary>
         
       
     
@@ -356,9 +384,9 @@
   </entry>
   
   <entry>
-    <title>Os-hackNos-1</title>
-    <link href="https://suqerbrave.github.io/2023/10/21/Os-hackNos-1/"/>
-    <id>https://suqerbrave.github.io/2023/10/21/Os-hackNos-1/</id>
+    <title>trollcave-v1-2</title>
+    <link href="https://suqerbrave.github.io/2023/10/21/trollcave-v1-2/"/>
+    <id>https://suqerbrave.github.io/2023/10/21/trollcave-v1-2/</id>
     <published>2023-10-21T08:20:27.000Z</published>
     <updated>2024-03-14T10:56:52.000Z</updated>
     
@@ -367,7 +395,7 @@
       
         
         
-    <summary type="html">&lt;h1 id=&quot;Os-hackNos-1&quot;&gt;&lt;a href=&quot;#Os-hackNos-1&quot; class=&quot;headerlink&quot; title=&quot;Os-hackNos-1&quot;&gt;&lt;/a&gt;Os-hackNos-1&lt;/h1&gt;&lt;p&gt;靶机下载 &lt;a</summary>
+    <summary type="html">&lt;h1 id=&quot;trollcave-v1-2&quot;&gt;&lt;a href=&quot;#trollcave-v1-2&quot; class=&quot;headerlink&quot; title=&quot;trollcave-v1-2&quot;&gt;&lt;/a&gt;trollcave-v1-2&lt;/h1&gt;&lt;p&gt;靶机地址&lt;a</summary>
         
       
     
